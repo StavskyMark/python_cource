@@ -8,4 +8,5 @@
 '''
 
 number = int(input('Введите трехзначное число: '))
-print (f'{number % 1000 // 100 + number % 100 // 10 + number % 10} ')
+print(
+    f'{number % 1000 // 100} + {number % 100 // 10} + {number % 10} = {number % 1000 // 100 + number % 100 // 10 + number % 10} ')
