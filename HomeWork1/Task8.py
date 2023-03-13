@@ -13,7 +13,7 @@ size_n = int(input('Введите размер n: '))
 size_m = int(input('Введите размер m: '))
 count = int(input('Введите сколько долек хотите отломить: '))
 
-if count % 2 == 0 and size_m * size_n != count:
+if count % 2 == 0 and size_m * size_n != count and count >= size_m:
     print(f'шоколадка размером {size_n} x {size_m} может быть разломана на {count} долек')
 else:
     print(f'шоколадка размером {size_n} x {size_m} не может быть разломана на {count} долек')
